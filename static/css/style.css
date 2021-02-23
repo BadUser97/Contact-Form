@@ -131,5 +131,15 @@ p{
         font-size: 18px;
     
     }
+    #footer{
+        font-size: 15px;
+        font-family: sans-serif;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        text-align: center;
+    }
 
 }
