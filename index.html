@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Contact Form Example</title>
+</head>
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <img src="https://cdn.pixabay.com/photo/2017/09/28/22/14/speech-icon-2797263_640.png" alt="logo-persona-hablando">
+        </div>
+    </header>
+
+    <form id="form" class="container-fluid">
+
+        <p>
+            Contactanos
+        </p>
+
+        <div class="form-group">
+          <label for="asunto">Escribe tu Asunto</label>
+          <input type="text"
+            class="form-control" name="asunto" id="asunto" aria-describedby="helpId" placeholder="Escribe aqui tu asunto del correo" required>
+          
+        </div>
+
+       <div class="form-group">
+         <label for="email">Ingresa tu correo electronico</label>
+         <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="Correo electrónico" autocomplete="on" required>
+       </div>
+
+       <div class="form-group">
+         <label for="message">Ingresa tu mensaje</label>
+         <textarea class="form-control" name="message" id="message" rows="3" placeholder="Escribe aqui tu mensaje" maxlength="200" required></textarea>
+
+         
+        
+       </div>
+
+       <button type="submit" id="btn" class="btn btn-primary">Enviar</button>
+
+    </form>
+    
+    <footer>
+        <p id="footer">Made Whit ♥ By <a href="#">ElIngeJuanMx</a></p>
+    </footer>
+    
+  
+  
+</body>
+</html>
